@@ -15,25 +15,25 @@
 12. line pay 付款
 
 技術
-1. gem Devise 會員系統
+* gem Devise 會員系統
   - 客製化 views
   - 客製化 controller
-2. bulma carousel （跑馬燈效果）
-3. Omniauth 串接 google API
-4. 建立後台
+* bulma carousel （跑馬燈效果）
+* Omniauth 串接 google API
+* 建立後台
   - routes設定，layout設定
   - 開廠商、商品 model
   - 商品編輯器
-5. 建立庫存機制
+* 建立庫存機制
   - 庫存 sku model
   - 建立巢狀表單
   - 設定 permit 格式
   - 庫存欄位畫面顯示
-6. 電子報 API
-7. 實作購物車
+* 電子報 API
+* 實作購物車
   - TDD Rspec(PORO)
   - MVC中實作 current_cart
   - 轉換 session 資料
-8. 購物車結帳
-  - 訂單及訂單物品建立model
-9. LINE pay串連  
+* 購物車結帳
+  - 訂單及訂單物品分別建立model
+* LINE pay串連  
